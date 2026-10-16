@@ -35,12 +35,13 @@ A production-ready, high-performance command-line text search utility designed s
 
 ### Global Installation
 ```powershell
-npm install -g grept
+npm install -g @sergenkabakci/grept
 ```
+Once installed globally, you can invoke the CLI directly as `grept`.
 
 ### On-Demand Execution (No install required)
 ```powershell
-npx grept --version
+npx @sergenkabakci/grept --version
 ```
 
 ---

@@ -39,7 +39,7 @@ jobs:
         shell: pwsh
         run: |
           npm pack
-          $tarball = Get-ChildItem -Filter "grept-*.tgz" | Select-Object -First 1
+          $tarball = Get-ChildItem -Filter "*grept-*.tgz" | Select-Object -First 1
           Write-Host "Created tarball: $($tarball.Name)"
           $tempDir = New-Item -ItemType Directory -Path (Join-Path $env:TEMP ([Guid]::NewGuid().ToString()))
           Set-Location $tempDir
