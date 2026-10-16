@@ -4,7 +4,7 @@
   "description": "Windows-native GNU grep-compatible high-performance text search CLI",
   "type": "module",
   "bin": {
-    "grept": "./bin/grept.js"
+    "grept": "bin/grept.js"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
